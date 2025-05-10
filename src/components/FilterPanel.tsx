@@ -173,19 +173,19 @@ const FilterPanel: React.FC = () => {
         <div className="flex flex-col sm:flex-row justify-end space-y-2 sm:space-y-0 sm:space-x-2">
           <button
             onClick={handleClearFilters}
-            className="py-2 px-4 border border-gray-300 dark:border-gray-600 rounded-md text-gray-700 dark:text-gray-300 hover:bg-gray-50 dark:hover:bg-gray-700 transition-colors order-2 sm:order-1"
+            className="py-2 px-4 border border-gray-300 dark:border-gray-600 rounded-md text-gray-700 dark:text-gray-300 hover:bg-gray-50 dark:hover:bg-gray-700 transition-colors order-2 sm:order-1 mb-2 mt-2"
           >
             <span className="flex items-center justify-center">
               <X className="h-4 w-4 mr-1" />
               Clear Filters
             </span>
           </button>
-          <button
+            <button
             onClick={handleApplyFilters}
-            className="py-2 px-4 bg-red-600 hover:bg-red-700 text-white rounded-md transition-colors order-1 sm:order-2"
-          >
+            className="py-2 px-4 bg-red-600 hover:bg-red-700 text-white rounded-md transition-colors order-1 sm:order-2 mb-2 mt-2"
+            >
             Apply Filters
-          </button>
+            </button>
         </div>
       </div>
       

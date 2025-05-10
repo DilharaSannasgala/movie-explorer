@@ -2,6 +2,11 @@
 
 A modern web application for discovering, searching, and saving your favorite movies.
 
+<div style="display: flex; gap: 10px;">
+   <img src="./images/movie-explorer-screenshot-1.png" alt="Movie Explorer Screenshot1" width="500">
+   <img src="./images/movie-explorer-screenshot-2.png" alt="Movie Explorer Screenshot2" width="500">
+</div>
+
 ## Features
 
 - **User Authentication**: Login and register functionality with local storage persistence
@@ -47,6 +52,10 @@ This application uses The Movie Database (TMDb) API to fetch movie data. You'll 
 For testing purposes, you can use the following credentials:
 - Username: `demo`
 - Password: `password`
+
+## Live Demo
+
+Check out the live demo of the application here: [Movie Explorer Live Demo](https://movie-explorer-ivory.vercel.app/)
 
 ## Project Structure
 
